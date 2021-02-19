@@ -9,3 +9,10 @@ class Solution:
             for j in range(i+1,len(nums)):
                 if (nums[i]+nums[j]) == target:
                     return [i,j]
+        # More optimized solution:
+        """for idx,num in enumerate(nums):
+            val = target - num
+            if val in nums[idx+1:]:
+                if idx == nums.index(val):
+                    return [idx,nums[idx+1:].index(val)+idx+1]
+                else : return [idx,nums.index(val)]"""
