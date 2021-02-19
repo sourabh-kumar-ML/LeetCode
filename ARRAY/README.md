@@ -6,3 +6,4 @@
                                    Solution --> Brute force method. (time-> 80ms, memory->14.6MB).
                                    
 3. Container With Most Water --. Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two                                  endpoints of the line i is at (i, ai) and (i, 0). Find two lines, which, together with the x-axis forms a container, such that the container                                         contains the most water.
+4. Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
